@@ -217,7 +217,7 @@ class ListingExtraAttributes implements ModelInterface, ArrayAccess
      *
      * @var mixed[]
      */
-    protected $container = [];
+    public $container = [];
 
     /**
      * Constructor
