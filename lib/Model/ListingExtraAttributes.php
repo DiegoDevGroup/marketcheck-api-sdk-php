@@ -208,16 +208,22 @@ class ListingExtraAttributes implements ModelInterface, ArrayAccess
         return self::$swaggerModelName;
     }
 
+    /**
+     * get Container values
+     *
+     * @return mixed[]
+     */
+    public function getContainer()
+    {
+        return $this->container;
+    }
     
-
-    
-
     /**
      * Associative array for storing property values
      *
      * @var mixed[]
      */
-    public $container = [];
+    private $container = [];
 
     /**
      * Constructor
